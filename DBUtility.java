@@ -1,3 +1,5 @@
+package com.example.boxofficea;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -5,8 +7,8 @@ import java.sql.Statement;
 
 public class DBUtility {
     private static final String DB_URL = "jdbc:mysql://your-aws-db-endpoint:3306/MovieBoxOffice";
-    private static final String USER = "yourusername";
-    private static final String PASS = "yourpassword";
+    private static final String USER = "your-username";
+    private static final String PASS = "your-password";
 
     public static Connection getConnection() {
         try {
